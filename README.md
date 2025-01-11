@@ -6,7 +6,7 @@
 2. 解压刚刚下载的 zip 文件。 我们将把解压后的文件夹作为下面命令中的 src_dir。
 3. 下载脚本，并在已安装 Python 3 的机器上运行以下命令。
 ```bash
-python parse_notion_export.py ./src_dir ./dst_dir
+python notion_export_parser.py ./src_dir ./dst_dir
 ```
 4. 代码会将源目录复制到目标目录，并在目标目录中进行所有修改。
 5. 现在可以检查目标文件夹。使用 Visual Studio Code，开启 Markdown 渲染功能 (Ctrl+K,V)。从上到下浏览，应该会看到所有图片正确加载:
@@ -20,7 +20,7 @@ This Python script parses all folder/ file name, and update the links. Removes 3
 2. Extract the zip file you just downloaded which we will use as src_dir in belowing command.
 3. Download the script and run belowing commands on machine that have python3 installed.
 ```bash
-python parse_notion_export.py ./src_dir ./dst_dir
+python notion_export_parser.py ./src_dir ./dst_dir
 ```
 4. The code will copy the source to dst and do all the modification in the dst.
 5. Now you can check the destination folder, simply use visualcode with markdown rendering on (Ctrl+K,V). And browse from top to down. You should have all the images displayed correctly.
